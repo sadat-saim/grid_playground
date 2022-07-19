@@ -219,3 +219,32 @@ nav,.logo-container,.links ul{
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width:400px){
+    .logo-container{
+        width: 3%;
+    }
+    .logo-text{
+        font-size: 1.2rem;
+    }
+    .links ul li a{
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+    .blogs{
+        grid-template-rows: 20%;
+    }
+    .blog{
+        align-items: end;
+    }
+    .blog-heading{
+        font-size: 1.3rem;
+    }
+    .author{
+        margin-top: -3rem;
+    }
+    .top-player, .late-course{
+        padding: 0.5rem;
+        margin-top: 2rem;
+        border-radius: 0.3rem;
+    }
+}
